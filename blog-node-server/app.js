@@ -8,7 +8,6 @@ const { access } = require('./src/utils/log')
 const { get } = require('./src/db/redis')
 const getPostData = require('./src/utils/getPostData')
 const getCookieExpires = require('./src/utils/getCookieExpires')
-const { resolve } = require('path')
 
 const serverHandle = (req , res) => {
     // 记录 access log
